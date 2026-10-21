@@ -27,7 +27,7 @@ Web kontroloval, jestli máš právo změnit e-mail, jen podle toho, z jaké adr
    * Po stisknutí `Send` se v odpovědi zobrazilo `HTTP/1.1 302 Found`, což potvrdilo, že server tuto manipulaci přijme jako platný Referer!
 
 4. **Generování CSRF PoC v Burp Suite:**
-   * Vrátil jsem se na webovou stránku labu, zadal cílový e-mail `peter@portswigger.net` a před kliknutím na *Update email* jsem v Burp Suite zapnul **Intercept ON**.
+   * Vrátil jsem se na webovou stránku labu, zadal cílový e-mail `peter@portswigger.net` a před kliknutím na *Update email* jsem v Burp Suite  **Intercept ON**.
    * Kliknul jsem na *Update email*, v Burp Suite jsem na zachycený požadavek kliknul pravým tlačítkem a vybral **Engagement tools -> Generate CSRF PoC**.
    * Zachycený požadavek v Interceptu jsem dal **Drop** a **Intercept**  (**OFF**).
    * V okně generátoru CSRF PoC jsem v možnostech (*Options*) zaškrtl **Include auto-submit script** a klikl na **Regenerate**.
@@ -58,7 +58,7 @@ Web kontroloval, jestli máš právo změnit e-mail, jen podle toho, z jaké adr
   </body>
 </html>
 
-# Dokončení:
+>  ⚠️ **Důležité upozornění:**Nezapomen nahradit  YOUR-LAB-URL svou skutečnou adresu labu.
 
 Na Exploit Serveru stačilo kliknout na tlačítko Store a následně na Deliver exploit to victim.
 
