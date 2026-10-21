@@ -58,7 +58,7 @@ Web kontroloval, jestli máš právo změnit e-mail, jen podle toho, z jaké adr
   </body>
 </html>
 
->  ⚠️ **Důležité upozornění:**Nezapomen nahradit  YOUR-LAB-URL svou skutečnou adresu labu.
+>  ⚠️ **Důležité upozornění:**Nezapomeň nahradit  YOUR-LAB-URL svou skutečnou adresu labu.
 
 Na Exploit Serveru stačilo kliknout na tlačítko Store a následně na Deliver exploit to victim.
 
